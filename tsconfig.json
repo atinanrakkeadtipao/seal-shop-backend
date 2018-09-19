@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "ES6",
+        "module": "commonjs",
         "rootDir": "src",
         "outDir": "build",
         "lib": ["ES6"]
