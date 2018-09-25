@@ -4,7 +4,12 @@ import { plugin } from "hapi-auth-basic";
 
 
 const server = new Server({
-    port: "5000"
+    port: "5000",
+    routes: {
+        cors: {
+            origin: ["*"]
+        }
+    }
 });
 
 
